@@ -6,14 +6,12 @@ using UnityEngine.UI;
 public class ActivePlayerInput : MonoBehaviour
 {
     [SerializeField] private ActivePlayerManager manager;
-    [SerializeField] private Button button;
 
     public Image powerFill;
 
 
 
-    public Transform ballSpawnPoint;
-    public GameObject ballPrefab;
+    
     public float ballSpeed = 10f;
     public float maxPower;
 

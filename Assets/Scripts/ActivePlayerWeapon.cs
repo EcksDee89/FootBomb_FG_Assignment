@@ -10,29 +10,6 @@ public class ActivePlayerWeapon : MonoBehaviour
     public GameObject ballPrefab;
     private float ballSpeed = 10f;
 
-    
-
-    //public float GetDamage()
-    //{
-    //    if(currentWeapon != null)
-    //    {
-    //        currentWeapon.GetDamage();
-    //    }
-    //    return weaponDamage;
-    //}
-
-
-    void Update()
-    {
-        
-        
-    }
-    //public void ShootingBall()
-    //{
-    //    var ball = Instantiate(ballPrefab, ballSpawnPoint.position, ballSpawnPoint.rotation);
-    //    ball.GetComponent<Rigidbody>().velocity = ballSpawnPoint.forward * ballSpeed;
-    //    manager.ChangeTurn();
-    //}
     public void setmanager(ActivePlayerManager theManager)
     {
         manager = theManager;

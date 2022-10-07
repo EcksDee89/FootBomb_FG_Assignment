@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ActivePlayerHealth : MonoBehaviour
 {
-    //private ActivePlayerWeapon manager;
     [SerializeField] private ActivePlayerManager manager;
     [SerializeField] public float maxHealth;
 
@@ -16,12 +15,6 @@ public class ActivePlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;    
-    }
-
-    
-    void Update()
-    {
-        
     }
     public void TakeDamage (float damage)
     {
@@ -35,7 +28,6 @@ public class ActivePlayerHealth : MonoBehaviour
            SceneManager.LoadScene(0);
             Debug.Log("You Win");
         }
-        
     }
     public void HealDamage (float healPoints)
     {
